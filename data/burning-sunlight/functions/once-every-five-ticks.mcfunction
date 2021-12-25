@@ -1,0 +1,1 @@
+execute if predicate burning-sunlight:time-to-burn run function burning-sunlight:burn-entities

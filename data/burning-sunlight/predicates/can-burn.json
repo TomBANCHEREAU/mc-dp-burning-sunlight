@@ -1,0 +1,9 @@
+[
+  { "condition": "location_check", "offsetY": 2, "predicate": { "light": { "light": 15 }, "dimension": "overworld" } },
+  { "condition": "location_check", "offsetY": 4, "predicate": { "light": { "light": 15 } } },
+  { "condition": "location_check", "offsetY": 10, "predicate": { "light": { "light": 15 } } },
+  { "condition": "location_check", "offsetY": 15, "predicate": { "light": { "light": 15 } } },
+  { "condition": "inverted", "term": { "condition": "location_check", "offsetY": 1, "predicate": { "fluid": { "fluid": "minecraft:lava" } } } },
+  { "condition": "inverted", "term": { "condition": "location_check", "offsetY": 1, "predicate": { "fluid": { "fluid": "minecraft:lava" } } } },
+  { "condition": "inverted", "term": { "condition": "location_check", "offsetY": 2, "predicate": { "block": { "state": { "type": "bottom" } } } } }
+]

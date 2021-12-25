@@ -1,0 +1,2 @@
+execute if predicate burning-sunlight:once-every-seven-days run say Today will be a nice day
+execute if predicate burning-sunlight:once-every-five-ticks run function burning-sunlight:once-every-five-ticks
